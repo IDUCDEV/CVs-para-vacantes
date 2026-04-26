@@ -112,11 +112,11 @@ Para cada requisito de la vacante:
 
 ### 5. GENERACIÓN DEL OUTPUT
 
-**Archivo de salida:** `{nombre-base}-{empresa}.md`
+**Archivo de salida:** `{nombre-base}-{Rol/especialidad}-{empresa}.md`
 
 En markdown limpio, optimizado para parseo ATS.
 
-**方言:** Español profesional (o según idioma de vacante)
+*Idioma:** Español profesional (o según idioma de vacante)
 
 ---
 
@@ -146,7 +146,7 @@ En markdown limpio, optimizado para parseo ATS.
 
 ```bash
 pandoc input.md -o output.pdf \
-  -V mainfont="Helvetica" \
+  -V mainfont="sans-serif" \
   -V fontsize=11 \
   -V geometry=margin=1in \
   --standalone

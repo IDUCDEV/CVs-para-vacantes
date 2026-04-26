@@ -33,8 +33,8 @@ Yo uso el prompt `cv-ats-prompt.md` para:
 ### Paso 3: Recibir Resultado
 
 Obtienes:
-- `isaac-urdaneta-{empresa}.md` - CV en markdown
-- `isaac-urdaneta-{empresa}.pdf` - PDF listo para enviar
+- `isaac-urdaneta-{Rol/especialidad}-{empresa}.md` - CV en markdown
+- `isaac-urdaneta-{Rol/especialidad}-{empresa}.pdf` - PDF listo para enviar
 
 ---
 
