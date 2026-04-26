@@ -1,53 +1,127 @@
 # Currículum Isaac Urdaneta
 
-Sistema de gestión de currículum vitae personalizable para aplicaciones a diferentes vacantes.
+Sistema de gestión de currículum vitae personalizable para aplicaciones a diferentes vacantes,
+con optimización para pasar filtros ATS (Applicant Tracking Systems).
 
 ## Estructura
 
 ```
 .
 ├── isaac-urdaneta-base.md    # Plantilla base con información completa
+├── cv-ats-prompt.md         # Prompt detallado para generar CVs ATS
 ├── CV_Isaac_Urdaneta_ES.md   # Versión en español (lista para usar)
-├── CV_Isaac_Urdaneta_EN.md   # English version (ready to use)
+├── CV_Isaac_Urdaneta_EN.md  # English version (ready to use)
 ├── Isaac Urdaneta CV - Español.pdf
 └── Isaac Urdaneta CV - English.pdf
 ```
 
-## Cómo usar
+## Modo de Uso
 
-### 1. Para una vacante específica
+### Paso 1: Proporcionar Vacante
 
-1. Copia `isaac-urdaneta-base.md`
-2. Personaliza según los requisitos de la vacante:
-   - Resalta habilidades relevantes
-   - Reordena proyectos según impacto
-   - Ajusta el resumen profesional
-3. Guarda como `CV_VACANTE.md`
+Comparte la descripción completa de la vacante/puesto al que quieres aplicar.
 
-### 2. Generar PDF
+### Paso 2: Generar CV Adaptado
 
-```bash
-# Instalar pandoc si no lo tienes
-sudo apt install pandoc
+Yo uso el prompt `cv-ats-prompt.md` para:
+1. Analizar los requisitos de la vacante
+2. Extraer keywords técnicos y funcionales
+3. Mapear tu experiencia con los requisitos
+4. Reescribir el CV optimizado para ATS
+5. Generar archivo `.md` y `.pdf`
 
-# Convertir a PDF
-pandoc CV_Isaac_Urdaneta_ES.md -o "Isaac_Urdaneta_CV.pdf"
+### Paso 3: Recibir Resultado
+
+Obtienes:
+- `isaac-urdaneta-{empresa}.md` - CV en markdown
+- `isaac-urdaneta-{empresa}.pdf` - PDF listo para enviar
+
+---
+
+## Generación Manual (sin asistencia)
+
+### 1. Análisis de Vacante
+
+Extrae manualmente los requisitos:
+
+| Categoría | Ejemplo |
+|-----------|---------|
+| Técnicos | Flutter, Dart, Clean Architecture, BLoC, APIs REST |
+| Funcionales | Desarrollo móvil, publicación en Stores |
+| Blandos | Trabajo en equipo, autonomía |
+| Modalidad | Remoto / Híbrido / Presencial |
+
+### 2. Optimización ATS
+
+**Keywords obligatorios** (busca y menciona todos):
+- Tecnologías requeridas en la vacante
+- Años de experiencia
+- Modalidad de trabajo
+
+**Formato ATS-Safe**:
+```
+✓ Headers simples: ## Título
+✓ Listas con guiones - o bullets •
+✓ Texto plano sin tablas
+✗ Sin imágenes
+✗ Sin columnas
+✗ Sin footnotes
 ```
 
-### 3. Enmascarar información sensible
+### 3. Plantilla de Resumen
 
-Si necesitas ocultar datos (ej.email, LinkedIn), busca y reemplaza en `isaac-urdaneta-base.md`:
+```markdown
+## Perfil Profesional
+
+[TÍTULO] con [AÑOS] años de experiencia en [TECNOLOGÍAS PRINCIPALES].
+Especializado en [ARQUITECTURA/PATRONES]. Experiencia en [REQUISITOS CLAVE].
+Capacidad para [RESPONSABILIDADES]. Modalidad: [REMOTO/HÍBRIDO].
+```
+
+### 4. Generar PDF
+
+```bash
+# Usar pandoc instalado
+pandoc input.md -o output.pdf \
+  -V mainfont="Helvetica" \
+  -V fontsize=11 \
+  -V geometry=margin=1in \
+  --standalone
+```
+
+---
+
+## Tips de Personalización
+
+| Tipo de Vacante | Qué Destacar |
+|-----------------|--------------|
+| Flutter Senior | Clean Architecture, BLoC, Supabase, Publicación Stores |
+| Frontend React | TypeScript, SSR, optimización, Lighthouse |
+| Full Stack | Backend + Móvil + DevOps |
+| Startup | Versatilidad, velocidad de entrega |
+
+---
+
+## Enmascarar Información
+
+Si necesitas ocultar datos (ej. email, LinkedIn), busca y reemplaza en `isaac-urdaneta-base.md`:
 - `urdanetacuarteisaacdavid@gmail.com` → `[EMAIL]`
 - `linkedin.com/in/isaac-urdaneta` → `[LINKEDIN]`
 
-## Tips de personalización
+---
 
-| Tipo de vacante | Qué destacar |
-|-----------------|---------------|
-| Flutter Senior | Clean Architecture, BLoC, Supabase |
-| Frontend React | TypeScript, SSR, optimización |
-| Full Stack | Backend + móvil + DevOps |
-| Startup | Versatilidad, velocidad de entrega |
+## Optimización ATS - Checklist
+
+Antes de enviar, verifica:
+
+- [ ] Keywords de la vacante incluidos en el CV
+- [ ] Años de experiencia reflejados
+- [ ] Modalidad de trabajo especificada
+- [ ] Sin información inconsistente
+- [ ] Formato ATS-safe (sin tablas/imágenes)
+- [ ] Densidad de keywords: 3-5%
+
+---
 
 ## Contacto
 
