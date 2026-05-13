@@ -3,7 +3,7 @@
 
 ---
 
-## 📧 Contact Info
+## Contact Info
 - **Location:** Venezuela (Remote Worldwide)
 - **Email:** [urdanetacuarteisaacdavid@gmail.com](mailto:urdanetacuarteisaacdavid@gmail.com)
 - **LinkedIn:** [linkedin.com/in/isaac-urdaneta](https://linkedin.com/in/isaac-urdaneta)
@@ -13,23 +13,24 @@
 
 ---
 
-## 🚀 Professional Summary
-Mobile Engineer specializing in the **Dart/Flutter** ecosystem with a strong focus on **Clean Architecture** and **Functional Programming (FPdart)**. Expert in designing infrastructure-decoupled systems that allow seamless migrations between backends (Supabase vs. REST API). I excel at integrating **DevOps** culture into mobile development (Docker/Makefiles) and implementing advanced security standards like **Zero-Knowledge Encryption**.
+## Professional Summary
+Mobile Engineer specializing in the **Dart/Flutter** ecosystem with a strong focus on **Clean Architecture** and **Functional Programming (FPdart)**. Expert in designing infrastructure-decoupled systems that allow seamless migrations between backends (Supabase vs. REST API). I excel at integrating **DevOps** culture into mobile development (Docker/Makefiles) and implementing advanced security standards like **Zero-Knowledge Encryption**. Currently expanding into infrastructure and automation with self-managed servers (Docker, Dokploy, n8n).
 
 ---
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 - **Core:** Flutter (Expert), Dart, Clean Architecture, MVVM, SOLID, FPdart.
 - **State Management:** BLoC (Specialist), RxDart, Provider, GetIt (DI).
 - **Backend & Data:** Supabase (Auth, Realtime, Functions), PostgreSQL, REST APIs (Dio), SQL.
-- **DevOps & QA:** Docker, Makefile Scripting, Git Hooks, Unit/Integration/Widget Testing.
+- **DevOps & Infrastructure:** Docker & Docker Compose, Dokploy, n8n, SSH, Bash Scripting, Makefile, Git Hooks.
+- **QA:** Unit/Integration/Widget Testing.
 - **UI/UX:** Complex Animations, Syncfusion Charts, FL Chart, Figma (Technical Collaboration).
 - **Security:** Zero-Knowledge Encryption, JWT, Secure Storage, App Hardening.
 
 ---
 
-## 💼 Professional Experience
+## Professional Experience
 
 ### Senior Mobile Engineer (Freelance) | IDUCDEV
 *July 2025 – Present | Remote*
@@ -52,17 +53,18 @@ Mobile Engineer specializing in the **Dart/Flutter** ecosystem with a strong foc
 
 ---
 
-## 🎓 Education
+## Education
 - **B.S. in Systems Engineering** | Universidad Nacional Abierta (Ongoing, since 2023)
 
 ---
 
-## 🏆 Featured Projects
+## Featured Projects
 - **SereniFlu:** AI-driven emotional companion with advanced encryption and predictive mental health trends. [sereniflu.netlify.app](https://sereniflu.netlify.app)
 - **Temporus:** Cross-platform time-tracker for social media with multi-device sync. [www.temporus.site](https://www.temporus.site)
+- **Automation Server:** Self-hosted infrastructure with n8n, Docker, Dokploy and PostgreSQL for automated workflows.
 
 ---
 
-## 🌐 Languages
+## Languages
 - **Spanish:** Native
 - **English:** Intermediate (B1 - Actively studying for B2/C1 proficiency)

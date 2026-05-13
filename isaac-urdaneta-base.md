@@ -12,7 +12,7 @@
 
 ## Resumen Profesional
 
-Ingeniero móvil especializado en el ecosistema **Dart/Flutter** con más de 2 años de experiencia desarrollando aplicaciones de alto rendimiento. Experto en **Arquitectura Limpia (Clean Architecture)**, **Programación Funcional (FPdart)** y patrones de diseño reactivos (BLoC/RxDart). Destaco por mi capacidad para diseñar sistemas resilientes con **desacoplamiento de infraestructura**, permitiendo la migración transparente entre backends (Supabase/REST API). Enfocado en la entrega de productos escalables mediante automatización de flujos de desarrollo (CI/CD, Docker, Makefiles).
+Ingeniero móvil especializado en el ecosistema **Dart/Flutter** con más de 2 años de experiencia desarrollando aplicaciones de alto rendimiento. Experto en **Arquitectura Limpia (Clean Architecture)**, **Programación Funcional (FPdart)** y patrones de diseño reactivos (BLoC/RxDart). Destaco por mi capacidad para diseñar sistemas resilientes con **desacoplamiento de infraestructura**, permitiendo la migración transparente entre backends (Supabase/REST API). Enfocado en la entrega de productos escalables mediante automatización de flujos de desarrollo (CI/CD, Docker, Makefiles). Actualmente expandiendo hacia infraestructura y automatización con servidores autogestionados (Docker, Dokploy, n8n) para despliegue de servicios y automatización de flujos de trabajo.
 
 ---
 
@@ -31,8 +31,10 @@ Ingeniero móvil especializado en el ecosistema **Dart/Flutter** con más de 2 a
 - **Persistencia:** Shared Preferences, Secure Storage.
 
 ### DevOps & Herramientas
-- **Automatización:** Makefile Scripting, Git Hooks (Pre-commit checks).
-- **Contenedores:** Docker (para entornos de desarrollo local y backend mockeado).
+- **Automatización:** Makefile Scripting (build, deploy y tareas de infraestructura), Git Hooks (Pre-commit checks).
+- **Infraestructura:** Docker y Docker Compose (desarrollo, producción y orquestación de servicios), Dokploy (PaaS autogestionado para deploy con dominio personalizado y SSL).
+- **Automatización de flujos:** n8n (workflow automation self-hosted, integración de APIs, triggers y automatización de procesos).
+- **Servidores:** Gestión vía SSH, scripting avanzado en Bash, monitoreo y administración de servidores Linux.
 - **Versionamiento:** Git / GitHub Flow.
 - **Diseño:** Figma (colaboración técnica).
 
@@ -88,6 +90,11 @@ enero 2023 - actualidad
 *Time-tracking para redes sociales*
 - **Tecnologías:** Flutter, Supabase.
 - **Logro:** Sincronización multi-dispositivo con latencia mínima.
+
+**Servidor de Automatizaciones — infraestructura autogestionada**
+*Plataforma de automatización self-hosted con n8n*
+- **Stack:** n8n, Docker, Dokploy, PostgreSQL, Bash.
+- **Logro:** Infraestructura completa de automatización con workflows, despliegue automatizado y monitoreo de servicios.
 
 ---
 

@@ -16,6 +16,7 @@ Extrae y categoriza:
 **Requisitos Técnicos:**
 - Frameworks y lenguajes mencionados
 - Herramientas y tecnologías requeridas
+- Infraestructura y DevOps (Docker, CI/CD, despliegue, orquestación, automatización)
 - Experiencia mínima (años)
 - Certificaciones necesarias
 
@@ -38,6 +39,11 @@ Para cada requisito de la vacante:
 - ✗ No mentioned → agregar si es relevante o incluir como "conocimiento"
 - ✗ No aplica → omitir
 
+**Mapeo específico de DevOps/Infraestructura:**
+- Si la vacante es **solo mobile** → reducir DevOps a lo esencial (Docker, Makefile), omitir Dokploy/n8n/SSH
+- Si la vacante es **mobile + DevOps/infra** → mantener y alinear descripciones
+- Si la vacante es **solo infra/DevOps** → pivotar: infraestructura como skill principal, mobile como background complementario
+
 ---
 
 ### 3. REESCRITURA OPTIMIZADA
@@ -52,6 +58,8 @@ Para cada requisito de la vacante:
 - Reordenar: primero las requeridas en la vacante
 - Agregar las que falten pero dominadas
 - Usar formato: "Tecnología - Uso/Aplicación"
+- Para roles mixtos (mobile + infra): dividir en subcategorías claras (Core, Infraestructura, QA)
+- Para roles puramente mobile: fusionar DevOps/Infra dentro de una línea genérica "DevOps & QA"
 
 **Experiencia Profesional:**
 - Para cada puesto: reescribir bullet points
@@ -120,7 +128,9 @@ En markdown limpio, optimizado para parseo ATS.
 
 ---
 
-## EJEMPLO DE APLICACIÓN
+## EJEMPLOS DE APLICACIÓN
+
+### Ejemplo 1: Mobile (Flutter Senior)
 
 **Input Vacante Stefanini:**
 - Desarrollador Flutter Senior
@@ -131,8 +141,23 @@ En markdown limpio, optimizado para parseo ATS.
 **Output Generado:**
 - Título: "Desarrollador Flutter Senior"
 - Resumen: Incluir keywords Flutter, Clean Architecture, BLoC, APIs REST, publicación Stores
-- Skills: Reordenar Clean Architecture, BLoC antes que otras tecnologías
+- Skills: Reordenar Clean Architecture, BLoC antes que otras tecnologías; sección DevOps reducida
 - Experiencia: Enfatizar publicación en Stores, arquitectura escalable
+
+### Ejemplo 2: Infraestructura (Platform/DevOps)
+
+**Input Vacante:**
+- Platform Engineer / DevOps
+- Remoto
+- Docker, CI/CD, automatización de flujos
+- Experiencia con servidores Linux
+
+**Output Generado:**
+- Título: "Platform Engineer & Mobile Architect"
+- Resumen: Destacar automatización, Docker, infraestructura autogestionada; mobile como background complementario
+- Skills: DevOps/Infraestructura primero (Docker, Dokploy, n8n, SSH, Bash), luego Core mobile
+- Experiencia: Enfatizar suite de automatización Makefiles/Docker, gestión de servidores
+- Proyectos: Priorizar Servidor de Automatizaciones sobre SereniFlu/Temporus
 
 ---
 
@@ -160,5 +185,6 @@ pandoc input.md -o output.pdf \
 - [ ] Años de experiencia reflejados correctamente
 - [ ] Modalidad de trabajo especificada
 - [ ] Sin información inconsistente con CV base
+- [ ] Sección DevOps/Infraestructura adaptada al tipo de rol (mobile vs mixto vs infra)
 - [ ] Formato ATS-safe verificado
 - [ ] Archivo genera PDF correctamente

@@ -14,7 +14,7 @@
 ---
 
 ## Resumen Profesional
-Ingeniero móvil especializado en el ecosistema **Dart/Flutter** con un enfoque riguroso en **Arquitectura Limpia (Clean Architecture)** y **Programación Funcional (FPdart)**. Experto en diseñar sistemas desacoplados de la infraestructura, permitiendo migraciones transparentes entre backends (Supabase/REST API). Destaco por integrar cultura **DevOps** en el desarrollo móvil (Docker/Makefiles).
+Ingeniero móvil especializado en el ecosistema **Dart/Flutter** con un enfoque riguroso en **Arquitectura Limpia (Clean Architecture)** y **Programación Funcional (FPdart)**. Experto en diseñar sistemas desacoplados de la infraestructura, permitiendo migraciones transparentes entre backends (Supabase/REST API). Destaco por integrar cultura **DevOps** en el desarrollo móvil (Docker/Makefiles). Actualmente expandiendo hacia infraestructura y automatización con servidores autogestionados (Docker, Dokploy, n8n).
 
 ---
 
@@ -23,7 +23,8 @@ Ingeniero móvil especializado en el ecosistema **Dart/Flutter** con un enfoque 
 - **Core:** Flutter (Experto), Dart, Clean Architecture, MVVM, SOLID, FPdart.
 - **Gestión de Estado:** BLoC (Especialista), RxDart, Provider, GetIt.
 - **Backend & Data:** Supabase (Auth, Realtime, Functions), PostgreSQL, REST APIs (Dio), SQL.
-- **DevOps & QA:** Docker, Makefile Scripting, Git Hooks, Unit/Integration Testing.
+- **DevOps & Infraestructura:** Docker & Docker Compose, Dokploy, n8n, SSH, Bash Scripting, Makefile, Git Hooks.
+- **QA:** Unit/Integration Testing.
 - **UI/UX:**  FL Chart, Figma (Colaboración).
 - **Seguridad:** JWT, Secure Storage.
 
@@ -60,6 +61,7 @@ Ingeniero móvil especializado en el ecosistema **Dart/Flutter** con un enfoque 
 ## Proyectos Destacados
 - **SereniFlu:** Compañero emocional con seguimiento y recomendaciones basados en estados emocionales. [sereniflu.netlify.app](https://sereniflu.netlify.app)
 - **Temporus:** Time-tracking para redes sociales con sincronización multi-dispositivo. [www.temporus.site](https://www.temporus.site)
+- **Servidor de Automatizaciones:** Infraestructura self-hosted con n8n, Docker, Dokploy y PostgreSQL para workflows automatizados.
 
 ---
 
