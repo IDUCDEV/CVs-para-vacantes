@@ -24,13 +24,13 @@ Flutter Developer | Mobile Engineer | Dart, Supabase & Clean Architecture | Syst
 | # | Titular | Caracteres |
 |---|---------|------------|
 | 1 | `Flutter Mobile Engineer | Clean Architecture & FPdart | Building Scalable Apps` | **79** ✅ |
-| 2 | `Senior Flutter Engineer | Clean Architecture, FPdart & Supabase | Scalable Apps` | **84** ✅ |
+| 2 | `Flutter Engineer | Clean Architecture, FPdart & Supabase | Scalable Apps` | **83** ✅ |
 | 3 | `Flutter & Dart Engineer | Clean Architecture | FPdart | DevOps-Driven Mobile Dev` | **84** ✅ |
 
 **Recomendada: Opción 2**
-> `Senior Flutter Engineer | Clean Architecture, FPdart & Supabase | Scalable Apps`
+> `Flutter Engineer | Clean Architecture, FPdart & Supabase | Scalable Apps`
 
-Incluye: seniority + rol + keywords técnicas clave + propuesta de valor. FPdart te diferencia del Flutter dev promedio. Supabase cubre otra keyword buscada.
+Incluye: rol + keywords técnicas clave + propuesta de valor. FPdart te diferencia del Flutter dev promedio. Supabase cubre otra keyword buscada.
 
 ---
 
@@ -50,7 +50,7 @@ Menciona búsqueda activa, experiencia en Flutter, Clean Architecture, pruebas y
 
 **Versión en español:**
 
-> 🚀 Senior Flutter Engineer con **3+ años de experiencia** en desarrollo de software. Comencé en frontend web (React/Next.js) y migré al ecosistema Flutter en 2025 — combinando lo mejor de ambos mundos.
+> 🚀 Flutter Engineer con **1 año de experiencia especializada en Flutter y 3+ años en desarrollo de software**. Comencé en frontend web (React/Next.js) y migré al ecosistema Flutter en 2025 — combinando lo mejor de ambos mundos.
 >
 > Construyo aplicaciones móviles escalables aplicando **Clean Architecture**, **Programación Funcional (FPdart)** y principios **SOLID**. Mi enfoque va más allá del código: integro cultura **DevOps** en el desarrollo móvil (Docker, Makefiles, CI/CD) para reducir tiempos de configuración y entrega.
 >
@@ -69,7 +69,7 @@ Menciona búsqueda activa, experiencia en Flutter, Clean Architecture, pruebas y
 
 **Versión en inglés:**
 
-> 🚀 Senior Flutter Engineer with **3+ years of experience** in software development. Started in web frontend (React/Next.js) and transitioned to the Flutter ecosystem in 2025 — bridging both worlds.
+> 🚀 Flutter Engineer with **1 year of specialized experience in Flutter and 3+ years in software development**. Started in web frontend (React/Next.js) and transitioned to the Flutter ecosystem in 2025 — bridging both worlds.
 >
 > I build scalable mobile applications using **Clean Architecture**, **Functional Programming (FPdart)**, and **SOLID** principles. Beyond code, I bring **DevOps practices** into mobile development (Docker, Makefiles, CI/CD) to streamline delivery.
 >
@@ -95,7 +95,7 @@ Las descripciones actuales suenan a **lista de servicios**, no a **logros con im
 
 ### Propuesta de reescritura por rol
 
-#### Senior Mobile Engineer — IDUCDEV (jul 2025 - actualidad)
+#### Mobile Engineer — IDUCDEV (jul 2025 - actualidad)
 
 **Actual (en LinkedIn):**
 > Creación de MVPs para startups. Interface development con React, TypeScript y Tailwind. Integración con Supabase/PostgreSQL. Apps móviles con Flutter.
@@ -141,7 +141,7 @@ Las descripciones actuales suenan a **lista de servicios**, no a **logros con im
 | FPdart (Functional Programming) | 🟡 Media | Headline, About, Skills |
 | BLoC | 🟡 Media | Skills, experiencia |
 | Supabase | 🟡 Media | Headline, Skills |
-| Senior Flutter Engineer | 🔴 Alta | Headline |
+| Flutter Engineer | 🔴 Alta | Headline |
 | DevOps / Docker / Makefiles | 🟡 Media | About, Skills |
 | GitHub Actions | 🟢 Baja | Skills |
 | PostgreSQL | 🟢 Baja | Skills |
@@ -227,7 +227,7 @@ Posicionarte como referente técnico en Flutter + Clean Architecture + FPdart, a
 
 ### Foto de fondo (banner)
 - [ ] Personalizada (no default de LinkedIn)
-- [ ] Puede incluir: tu nombre + "Senior Flutter Engineer" + Clean Architecture / FPdart
+- [ ] Puede incluir: tu nombre + "Flutter Engineer" + Clean Architecture / FPdart
 - [ ] Colores acordes a tu marca personal
 - [ ] Herramienta sugerida: Canva (plantilla LinkedIn banner 1584x396px)
 

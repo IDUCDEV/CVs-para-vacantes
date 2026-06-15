@@ -1,4 +1,4 @@
-# Isaac Urdaneta | Senior Flutter Engineer & Mobile Architect
+# Isaac Urdaneta | Flutter Engineer & Mobile Architect
 **Clean Architecture | FPdart | Sistemas Escalables**
 
 ---
@@ -14,7 +14,7 @@
 ---
 
 ## Resumen Profesional
-Senior Flutter Engineer con **3+ años de experiencia** en desarrollo de software, iniciando en frontend web (React/Next.js) y migrando al ecosistema **Dart/Flutter** en 2025. Experto en **Arquitectura Limpia (Clean Architecture)** y **Programación Funcional (FPdart)**. Destaco por diseñar sistemas desacoplados de infraestructura que permiten migraciones transparentes entre backends (Supabase/REST API). Integro cultura **DevOps** en el desarrollo móvil (Docker, Makefiles, CI/CD).
+Flutter Engineer con **1 año de experiencia especializada en Flutter y 3+ años en desarrollo de software**, iniciando en frontend web (React/Next.js) y migrando al ecosistema **Dart/Flutter** en 2025. Experto en **Arquitectura Limpia (Clean Architecture)** y **Programación Funcional (FPdart)**. Destaco por diseñar sistemas desacoplados de infraestructura que permiten migraciones transparentes entre backends (Supabase/REST API). Integro cultura **DevOps** en el desarrollo móvil (Docker, Makefiles, CI/CD).
 
 ---
 
@@ -31,7 +31,7 @@ Senior Flutter Engineer con **3+ años de experiencia** en desarrollo de softwar
 
 ## Experiencia Profesional
 
-### Ingeniero Móvil Senior Freelance | IDUCDEV
+### Ingeniero Móvil Freelance | IDUCDEV
 *julio 2025 – Actualidad | Remoto*
 - Diseñé una arquitectura modular desacoplada mediante interfaces para **SereniFlu**, permitiendo intercambio de backend en tiempo real.
 - Implementé un motor de mapeo emocional con **94% de precisión** y análisis de tendencias longitudinales.

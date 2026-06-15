@@ -1,4 +1,4 @@
-# Isaac Urdaneta - Senior Flutter Engineer & Mobile Architect
+# Isaac Urdaneta - Flutter Engineer & Mobile Architect
 
 ## Datos de Contacto
 - **Ubicación:** Venezuela (Disponibilidad para trabajo remoto global)
@@ -14,7 +14,7 @@
 
 ## Resumen Profesional
 
-Senior Flutter Engineer con **3+ años de experiencia** en desarrollo de software, iniciando en frontend web (React/Next.js) y migrando al ecosistema **Dart/Flutter** en 2025. Experto en **Arquitectura Limpia (Clean Architecture)**, **Programación Funcional (FPdart)** y patrones de diseño reactivos (BLoC/RxDart). Destaco por diseñar sistemas desacoplados de infraestructura que permiten migraciones transparentes entre backends (Supabase/REST API). Integro cultura **DevOps** en el desarrollo móvil (Docker, Makefiles, CI/CD) para reducir tiempos de configuración y entrega. Actualmente expandiendo hacia infraestructura autogestionada con Docker, Dokploy y n8n para despliegue de servicios y automatización de flujos de trabajo.
+Flutter Engineer con **1 año de experiencia especializada en Flutter y 3+ años en desarrollo de software**, iniciando en frontend web (React/Next.js) y migrando al ecosistema **Dart/Flutter** en 2025. Experto en **Arquitectura Limpia (Clean Architecture)**, **Programación Funcional (FPdart)** y patrones de diseño reactivos (BLoC/RxDart). Destaco por diseñar sistemas desacoplados de infraestructura que permiten migraciones transparentes entre backends (Supabase/REST API). Integro cultura **DevOps** en el desarrollo móvil (Docker, Makefiles, CI/CD) para reducir tiempos de configuración y entrega. Actualmente expandiendo hacia infraestructura autogestionada con Docker, Dokploy y n8n para despliegue de servicios y automatización de flujos de trabajo.
 
 ---
 
@@ -50,7 +50,7 @@ Senior Flutter Engineer con **3+ años de experiencia** en desarrollo de softwar
 
 ## Experiencia Profesional
 
-### Ingeniero Móvil Senior Freelance | IDUCDEV
+### Ingeniero Móvil Freelance | IDUCDEV
 **Remoto | julio 2025 - actualidad**
 
 - Diseñé una arquitectura limpia modular desacoplada mediante interfaces, permitiendo el intercambio de backend en tiempo real mediante configuración.
