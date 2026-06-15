@@ -7,12 +7,14 @@ con optimización para pasar filtros ATS (Applicant Tracking Systems).
 
 ```
 .
-├── isaac-urdaneta-base.md    # Plantilla base con información completa
-├── cv-ats-prompt.md         # Prompt detallado para generar CVs ATS
-├── CV_Isaac_Urdaneta_ES.md   # Versión en español (lista para usar)
-├── CV_Isaac_Urdaneta_EN.md  # English version (ready to use)
+├── isaac-urdaneta-base.md          # Plantilla base con información completa
+├── cv-ats-prompt.md               # Prompt detallado para generar CVs ATS
+├── CV_Isaac_Urdaneta_ES.md        # Versión en español (lista para usar)
+├── CV_Isaac_Urdaneta_EN.md        # English version (ready to use)
+├── linkedin-optimizacion-isaac-urdaneta.md  # Guía de optimización de LinkedIn
 ├── Isaac Urdaneta CV - Español.pdf
-└── Isaac Urdaneta CV - English.pdf
+├── Isaac Urdaneta CV - English.pdf
+└── README.md
 ```
 
 ## Modo de Uso
@@ -33,8 +35,8 @@ Yo uso el prompt `cv-ats-prompt.md` para:
 ### Paso 3: Recibir Resultado
 
 Obtienes:
-- `isaac-urdaneta-{Rol/especialidad}-{empresa}.md` - CV en markdown
-- `isaac-urdaneta-{Rol/especialidad}-{empresa}.pdf` - PDF listo para enviar
+- `isaac-urdaneta-{Rol/especialidad}-{empresa}.md` — CV en markdown
+- `isaac-urdaneta-{Rol/especialidad}-{empresa}.pdf` — PDF listo para enviar
 
 ---
 
@@ -95,8 +97,8 @@ pandoc input.md -o output.pdf \
 
 | Tipo de Vacante | Qué Destacar |
 |-----------------|--------------|
-| Flutter Senior | Clean Architecture, BLoC, Supabase, Publicación Stores |
-| Frontend React | TypeScript, SSR, optimización, Lighthouse |
+| Flutter Senior | Clean Architecture, BLoC, Supabase, FPdart, Publicación Stores |
+| Frontend React | TypeScript, SSR, optimización, Lighthouse, WebSockets |
 | Full Stack | Backend + Móvil + DevOps |
 | Startup | Versatilidad, velocidad de entrega |
 
@@ -125,4 +127,5 @@ Antes de enviar, verifica:
 
 ## Contacto
 
-Para preguntas sobre este CV: urdanetacuarteisaacdavid@gmail.com
+- Email personal: urdanetacuarteisaacdavid@gmail.com
+- Email freelance: iducdev.inc@gmail.com

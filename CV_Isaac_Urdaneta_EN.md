@@ -14,19 +14,18 @@
 ---
 
 ## Professional Summary
-Mobile Engineer specializing in the **Dart/Flutter** ecosystem with a strong focus on **Clean Architecture** and **Functional Programming (FPdart)**. Expert in designing infrastructure-decoupled systems that allow seamless migrations between backends (Supabase vs. REST API). I excel at integrating **DevOps** culture into mobile development (Docker/Makefiles) and implementing advanced security standards like **Zero-Knowledge Encryption**. Currently expanding into infrastructure and automation with self-managed servers (Docker, Dokploy, n8n).
+Senior Flutter Engineer with **3+ years of experience** in software development, starting in web frontend (React/Next.js) and transitioning to the **Dart/Flutter** ecosystem in 2025. Expert in **Clean Architecture** and **Functional Programming (FPdart)**. I specialize in designing infrastructure-decoupled systems that enable seamless backend migrations (Supabase/REST API). I bring **DevOps** culture into mobile development (Docker, Makefiles, CI/CD) to reduce setup and delivery times.
 
 ---
 
 ## Technical Skills
 
 - **Core:** Flutter (Expert), Dart, Clean Architecture, MVVM, SOLID, FPdart.
-- **State Management:** BLoC (Specialist), RxDart, Provider, GetIt (DI).
-- **Backend & Data:** Supabase (Auth, Realtime, Functions), PostgreSQL, REST APIs (Dio), SQL.
-- **DevOps & Infrastructure:** Docker & Docker Compose, Dokploy, n8n, SSH, Bash Scripting, Makefile, Git Hooks.
+- **State Management:** BLoC (Specialist), RxDart, Provider, GetIt.
+- **Backend & Data:** Supabase (Auth, Realtime, Functions), PostgreSQL, REST APIs (Dio), WebSockets, SQL.
+- **DevOps & Infrastructure:** Docker & Docker Compose, Dokploy, n8n, GitHub Actions, SSH, Bash Scripting, Makefile, Git Hooks.
 - **QA:** Unit/Integration/Widget Testing.
-- **UI/UX:** Complex Animations, Syncfusion Charts, FL Chart, Figma (Technical Collaboration).
-- **Security:** Zero-Knowledge Encryption, JWT, Secure Storage, App Hardening.
+- **UI/UX:** FL Chart, Figma (Technical Collaboration).
 
 ---
 
@@ -34,16 +33,16 @@ Mobile Engineer specializing in the **Dart/Flutter** ecosystem with a strong foc
 
 ### Senior Mobile Engineer (Freelance) | IDUCDEV
 *July 2025 – Present | Remote*
-- **SereniFlu (Wellness MVP):** Architected a modular, interface-driven system that allows real-time backend swapping via configuration.
-- Implemented an emotional mapping engine with **94% accuracy** and complex longitudinal trend visualization.
-- Developed an automation suite using **Makefiles and Docker** that reduced local environment setup time by 50%.
-- Integrated **Supabase Realtime** for instant data synchronization and low-latency mobile performance.
+- Architected a modular, interface-driven system for **SereniFlu** allowing real-time backend swapping via configuration.
+- Implemented an emotional mapping engine with **94% accuracy** and longitudinal trend analysis.
+- Developed an automation suite using **Makefiles and Docker** that reduced environment setup time by 50%.
+- Integrated **Supabase Realtime** for instant data sync and shipped 3+ production-ready Flutter apps.
 
 ### Frontend Developer | Municipality of Buchivacoa
 *February 2025 – June 2025 | Venezuela*
-- Boosted page load performance by **40%** by implementing Server-Side Rendering (SSR) with Next.js.
+- Boosted page load performance by **40%** by implementing SSR with Next.js.
 - Developed 8+ critical interfaces optimized for high concurrency in government digital services.
-- Established frontend style guides and coding standards that increased code maintainability by 25%.
+- Established frontend style guides and coding standards that increased maintainability by 25%.
 
 ### Frontend & Mobile Developer | No Country
 *January 2023 – January 2025 | Remote*
@@ -54,14 +53,16 @@ Mobile Engineer specializing in the **Dart/Flutter** ecosystem with a strong foc
 ---
 
 ## Education
-- **B.S. in Systems Engineering** | Universidad Nacional Abierta (Ongoing, since 2023)
+- **B.S. in Systems Engineering** | Universidad Nacional Abierta, Venezuela (Ongoing, since 2023)
 
 ---
 
 ## Featured Projects
-- **SereniFlu:** AI-driven emotional companion with advanced encryption and predictive mental health trends. [sereniflu.netlify.app](https://sereniflu.netlify.app)
-- **Temporus:** Cross-platform time-tracker for social media with multi-device sync. [www.temporus.site](https://www.temporus.site)
-- **Automation Server:** Self-hosted infrastructure with n8n, Docker, Dokploy and PostgreSQL for automated workflows.
+- **SereniFlu:** Flutter wellness app with <30s emotional check-ins and AI-driven recommendations. [sereniflu.netlify.app](https://sereniflu.netlify.app)
+- **Temporus:** Cross-platform time-tracking app with multi-device real-time sync. [www.temporus.site](https://www.temporus.site)
+- **Juego PPT:** Real-time rock-paper-scissors multiplayer platform using WebSockets. [juegoppt.site](https://juegoppt.site)
+- **VisDown:** Online video downloader built with Next.js and TypeScript.
+- **Automation Server:** Self-hosted infrastructure with n8n, Docker, and Dokploy for automated workflows.
 
 ---
 
