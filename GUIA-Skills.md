@@ -8,6 +8,7 @@
 | 2 | **linkedin-hidden-jobs** | Busca el "hidden job market" de LinkedIn: posts donde la gente publica vacantes, no avisos oficiales | AI guiada (websearch) | Cargar la skill → el AI ejecuta las queries |
 | 3 | **cv-apply** | Genera CV optimizado ATS + carta de presentación + PDF a partir de una descripción de vacante | AI guiada | Cargar la skill → pegar descripción |
 | 4 | **linkedin-outreach** | Genera mensaje personalizado para contactar reclutadores en LinkedIn | AI guiada | Cargar la skill → pegar URL de perfil |
+| 5 | **flutter-employers** | Descubre empresas target (startups + establecidas) en LATAM y globales remote-first que usan Flutter | AI guiada (pipeline 4 fases) | Cargar la skill → ejecuta el pipeline |
 
 ---
 
@@ -130,6 +131,48 @@ mensajes-outreach/{nombre-normalizado}-{YYYY-MM-DD}.md
 
 ---
 
+## 5. flutter-employers — Discovery de empresas target
+
+**Archivos:** `flutter-employers/SKILL.md`
+
+No tiene script propio. El agente ejecuta el pipeline completo siguiendo las instrucciones en SKILL.md.
+
+### Qué hace
+- **FASE 1:** Descubre empresas vía 4 fuentes (Web Search, GitHub, LinkedIn, Directorios)
+- **FASE 2:** Deduplica y normaliza contra DB persistente
+- **FASE 3:** Enriquece top 5-8 empresas (visita website + careers page + LinkedIn)
+- **FASE 4:** Scorea (0-100) y genera output markdown + guarda DB
+
+### Output
+```
+empresas-target/{YYYY-MM-DD}-empresas.md
+empresas-target/leads-db.json        (persistencia)
+```
+
+### Target
+- Startups LATAM que usan Flutter
+- Empresas LATAM establecidas con apps mobile
+- Empresas globales remote-first
+- Solo empresas **producto** (no agencias/consultoras)
+
+### Scoring
+| Nivel | Score | Significado |
+|-------|-------|-------------|
+| 🔥 Hot | ≥ 70 | Prioridad alta. Tienen Flutter + remoto + posible hiring. |
+| 🟡 Warm | 40-69 | Seguimiento. Falta información o señal débil. |
+| ⚪ Cold | < 40 | Baja prioridad. Guardar para futura investigación. |
+
+### Flujo recomendado
+```
+1. flutter-employers     → Descubrir empresas target (semanal)
+2. job-search            → Buscar vacantes activas (diario)
+3. linkedin-hidden-jobs  → Buscar posts ocultos (diario)
+4. linkedin-outreach     → Contactar reclutadores
+5. cv-apply              → Aplicar a vacante específica
+```
+
+---
+
 ## Respaldo y restauración
 
 ### Backup automático
@@ -137,6 +180,7 @@ Las skills están respaldadas en:
 ```
 skills-backup/
 ├── cv-apply/SKILL.md
+├── flutter-employers/SKILL.md
 ├── job-search/SKILL.md
 ├── job-search/job_search.py
 ├── linkedin-hidden-jobs/SKILL.md
@@ -169,8 +213,9 @@ ls ~/.opencode/skills/
 ## Pipeline completo (flujo recomendado)
 
 ```
-1. job-search              → Buscar vacantes (diario)
-2. linkedin-hidden-jobs    → Buscar posts ocultos (diario)
-3. linkedin-outreach       → Contactar reclutadores (cuando haya un perfil relevante)
-4. cv-apply                → Aplicar a vacante específica (cuando se decida aplicar)
+1. flutter-employers       → Descubrir empresas target (semanal)
+2. job-search              → Buscar vacantes activas (diario)
+3. linkedin-hidden-jobs    → Buscar posts ocultos (diario)
+4. linkedin-outreach       → Contactar reclutadores (cuando haya un perfil relevante)
+5. cv-apply                → Aplicar a vacante específica (cuando se decida aplicar)
 ```
