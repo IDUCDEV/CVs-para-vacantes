@@ -37,6 +37,7 @@ Flutter Engineer con **1 año de experiencia especializada en Flutter y 3+ años
 - Implementé un motor de mapeo emocional con **94% de precisión** y análisis de tendencias longitudinales.
 - Desarrollé una suite de automatización con **Makefiles y Docker** que redujo el tiempo de setup de entornos en un 50%.
 - Integré **Supabase** para sincronización instantánea y lancé 3+ aplicaciones Flutter a producción.
+- Desarrollé **Rifáme**, plataforma de gestión de rifas con Flutter, Supabase y Next.js, donde los pagos se coordinan por fuera de la app y sistema de sorteo verificable. MVP en desarrollo, próximo a lanzamiento en Play Store.
 
 ### Desarrollador Frontend | Ayuntamiento de Buchivacoa
 *febrero 2025 – junio 2025 | Venezuela*
@@ -58,6 +59,7 @@ Flutter Engineer con **1 año de experiencia especializada en Flutter y 3+ años
 ---
 
 ## Proyectos Destacados
+- **Rifáme:** Plataforma de gestión de rifas con reserva en tiempo real y sorteo verificable. Los pagos se coordinan por fuera de la app. Flutter + Next.js + Supabase. MVP en desarrollo, próximo a Play Store. [rifame.vercel.app](https://rifame.vercel.app)
 - **SereniFlu:** App Flutter de bienestar emocional con check-ins en <30s y recomendaciones inteligentes. [sereniflu.netlify.app](https://sereniflu.netlify.app)
 - **Temporus:** Time-tracking multi-dispositivo con sincronización en tiempo real. [www.temporus.site](https://www.temporus.site)
 - **Juego PPT:** Plataforma multijugador de piedra, papel o tijera con WebSockets. [juegoppt.site](https://juegoppt.site)
